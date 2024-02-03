@@ -129,3 +129,6 @@ main{
 .news-source{
     margin-block: 12px;
 }
+.nav-item.active{
+color:var(--accent-color);
+}

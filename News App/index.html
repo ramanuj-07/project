@@ -11,19 +11,19 @@
 <body>
     <nav>
         <div class="main-nav container flex">
-            <a href="#" class="News logo">
+            <a href="#" onclick="reload()" class="News logo">
                 <img src="" alt="News Logo">
             </a>
             <div class="nav-links">
                 <ul class="flex">
-                    <ol class="hover-link nav-item">Tech</ol>
-                    <ol class="hover-link nav-item">Finance</ol>
-                    <ol class="hover-link nav-item">Sports</ol>
+                    <ol class="hover-link nav-item" id="tech" onclick="onNavItemClick('tech')">Tech</ol>
+                    <ol class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</ol>
+                    <ol class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</ol>
                 </ul>
-            </div>
+            </div> 
             <div class="search-bar">
-                <input type="text" class="news-input" placeholder="e.g Science">
-                <button class="search-button">Search</button>
+                <input id="search-text" type="text" class="news-input" placeholder="e.g Science">
+                <button class="search-button" id="search-button">Search</button>
             </div>
         </div>
     </nav>
