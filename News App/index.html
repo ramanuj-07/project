@@ -28,7 +28,27 @@
         </div>
     </nav>
 
-    <main></main>
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+
+        <template id="template-news-card">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="News Img" id="news-image"> 
+                </div>
+                    <div class="card-content">
+                        <h3 id="news-title">
+                           This is the title 
+                        </h3>
+                        <h6 id="news-source" class="news-source">
+                            End gadjet 3-2-24
+                        </h6>
+                        <p class="news-description"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptates quibusdam ipsa veniam ab non omnis delectus velit accusamus, debitis cupiditate corrupti sit quam. Quasi laborum est magni consequuntur ex?</p>
+                    </div>
+            </div>
+        </template>
+    </main>
 
     <script src="script.js"></script>
 </body>
