@@ -6,20 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <nav>
         <ul>
             <li class="brand"><img src="Spotify_icon.svg.webp" alt="Logo">Spotify</li>
-            <li>Home </li>
-            <li>About</li>
+            <li class="icons">Home </li>
+            <li class="icons">About</li>
         </ul>
     </nav>
-    <div class="container">
-        
+    <div class="container" >
+        <div class="songlist">
+            <span class="material-symbols-outlined">Best of 2023</span>
+        </div>
+        <div class="songbanner"></div>
+       
     </div>
+   
+    <div class="bottom">
+        <input type="range" class="range" min="0" max="100" id="myProgressBar">
+        <div class="icons">
+            <span class="material-symbols-outlined">skip_previous</span>
+            <span class="material-symbols-outlined">play_circle</span>
+            <span class="material-symbols-outlined">skip_next </span>
+        </div>
+    </div>
+
     <script src="script.css"></script>
 </body>
-
 </html>

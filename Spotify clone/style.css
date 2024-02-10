@@ -20,6 +20,13 @@ nav ul {
     background-color: black;
 
 }
+nav li {
+    padding: 0 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* cursor: pointer; */
+}
 
 .brand img {
     width: 45px;
@@ -30,11 +37,39 @@ nav ul {
     align-items: center;
     font-size: 1.3rem;
     font-weight: bolder;
+    cursor: pointer;
 }
 
-nav li {
-    padding: 0 15px;
-    color: white;
-    display: flex;
-    align-items: center;
+.container{
+    min-height: 71vh;
+}
+
+.bottom{
+background-color: black;
+position: sticky;
+height: 90px;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
+
+.container{
+background-color: black;
+color: white;
+display: flex;
+margin: 23px auto;
+width: 70%;
+border-radius: 12px;
+padding: 20px;
+}
+
+.icons{
+    cursor: pointer;
 }
