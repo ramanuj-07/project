@@ -20,6 +20,7 @@ nav ul {
     background-color: black;
 
 }
+
 nav li {
     padding: 0 15px;
     color: white;
@@ -40,36 +41,70 @@ nav li {
     cursor: pointer;
 }
 
-.container{
+.container {
     min-height: 71vh;
 }
 
-.bottom{
-background-color: black;
-position: sticky;
-height: 90px;
-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-flex-direction: column;
+.bottom {
+    background-color: black;
+    position: sticky;
+    height: 90px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
 }
 
-#myProgressBar{
+#myProgressBar {
     width: 80vw;
 }
 
-.container{
-background-color: black;
-color: white;
-display: flex;
-margin: 23px auto;
-width: 70%;
-border-radius: 12px;
-padding: 20px;
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('depositphotos_21380509-stock-illustration-music-equaliser-1.jpeg');
 }
 
-.icons{
+.icons {
     cursor: pointer;
+}
+
+.material-symbols-outlined {
+    margin: 0 40px;
+}
+
+.songlist {
+
+}
+
+.songItems {
+    height: 50px;
+    display: flex;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.songItems img {
+    width: 70px;
+    margin: 0 20px;
+    border-radius: 40px;
+    
+}
+
+.songListPlay {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 30px;
 }
