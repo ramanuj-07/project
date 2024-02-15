@@ -59,6 +59,7 @@ nav li {
 
 #myProgressBar {
     width: 80vw;
+    cursor: pointer;
 }
 
 .container {
@@ -78,10 +79,6 @@ nav li {
 
 .material-symbols-outlined {
     margin: 0 40px;
-}
-
-.songlist {
-
 }
 
 .songItems {
