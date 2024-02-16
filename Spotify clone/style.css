@@ -107,8 +107,17 @@ nav li {
     align-items: center;
     padding: 30px;
 }
+
 .playMusic img{
     opacity: 0;
     transition: opacity 0.5s ease-in;
+}
+.search input{
+padding: 10px;
+width: 110%;
+border-radius: 30px;
+}
+.search button{
+    border-radius: 20px;
 }
 
