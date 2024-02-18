@@ -38,3 +38,37 @@ audioElement.addEventListener('timeupdate', () => {
 myProgressBar.addEventListener('change', () => {
     audioElement.currentTime = myProgressBar.value * audioElement.duration / 100;
 })
+
+// spotify API 
+// document.getElementById("searchButton").addEventListener("click", function() {
+//     var searchTerm = document.getElementById("searchInput").value;
+
+//     fetch(`https://api.spotify.com/v1/search?q=${searchTerm}&type=track`, {
+//         headers: {
+//             'Authorization': 'Bearer YOUR_ACCESS_TOKEN' // Replace with your Spotify access token
+//         }
+//     })
+//     .then(response => response.json())
+//     .then(data => {
+//         // Extract relevant information from the response
+//         var searchResults = data.tracks.items.map(item => {
+//             return `${item.name} - ${item.artists.map(artist => artist.name).join(', ')}`;
+//         });
+
+//         displaySearchResults(searchResults);
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//     });
+// });
+
+// function displaySearchResults(results) {
+//     var searchResultsDiv = document.getElementById("searchResults");
+//     searchResultsDiv.innerHTML = "";
+
+//     results.forEach(function(result) {
+//         var listItem = document.createElement("div");
+//         listItem.textContent = result;
+//         searchResultsDiv.appendChild(listItem);
+//     });
+// }
