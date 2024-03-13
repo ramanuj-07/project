@@ -28,7 +28,7 @@
 .todo-app h3 {
     align-items: center;
     display: flex;
-    
+
 }
 
 .todo-app h3 img {
@@ -36,4 +36,35 @@
     display: flex;
     width: 25px;
     margin-left: 5px;
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    background: #edeef0;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+input {
+    padding: 10px;
+    flex: 1;
+
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background: transparent;
+}
+
+button {
+    background-color: rgb(249, 105, 53);
+    border: none;
+    font-size: 15px;
+    border-radius: 40px;
+    padding: 16px 40px;
+    color: #fff;
+cursor: pointer;
+
 }
