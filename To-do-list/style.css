@@ -51,7 +51,6 @@
 input {
     padding: 10px;
     flex: 1;
-
     outline: none;
     border: none;
     font-size: 15px;
@@ -65,6 +64,36 @@ button {
     border-radius: 40px;
     padding: 16px 40px;
     color: #fff;
-cursor: pointer;
+    cursor: pointer;
+}
 
+ul li {
+    list-style: none;
+    padding: 12px 8px 12px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+ul li::before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-image: url('images/unchecked.png');
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+ul li.checked {
+color: #555;
+text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('images/checked.png');
+    
 }
