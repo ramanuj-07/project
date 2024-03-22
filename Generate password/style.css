@@ -65,6 +65,7 @@ color: rgb(27, 211, 150);
     outline: 0;
     border-radius: 5px;
     font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     font-weight: 300;
     padding: 16px 26px;
     cursor: pointer;
