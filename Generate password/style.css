@@ -1,35 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
-body{
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+
+body {
+    background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
 
 }
-.container{
-color: aliceblue;
-margin: 20%;
-max-width: 600px;
+
+.container {
+    color:white;
+    margin: 12%;
+    max-width: 700px;
+    width: 90%;
 }
-.display{
-    padding: 50px;
-    background-color: rgb(228, 245, 245);
+.container h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.container h1 span{
+   border-bottom: 4px solid green;
+   padding-bottom: 7px;
+color: rgb(27, 211, 150);
+}
+.display img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+.display {
+    padding: 26px 20px;
+    background: white;
     margin: 50px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    color: #333;
+    align-items: center;
     justify-content: space-between;
-
+    border-radius: 10px;
 }
-.search{
-    width: 80%;
-height: 25px;
-
+.container button img{
+    width: 28px;
+    margin-right:10px;
 }
-.display img{
-    height: 20px;
-    width: 20px;
-cursor: pointer;
+.container button{
+    display: flex;
+    align-items: center;
+    background: #019f55;
+    color: #fff;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 16px 26px;
+    cursor: pointer;
 }
