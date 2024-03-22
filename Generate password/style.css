@@ -10,7 +10,6 @@
 
 body {
     background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
-
 }
 
 .container {
@@ -65,7 +64,6 @@ color: rgb(27, 211, 150);
     outline: 0;
     border-radius: 5px;
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
     font-weight: 300;
     padding: 16px 26px;
     cursor: pointer;
