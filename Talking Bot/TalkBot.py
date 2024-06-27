@@ -1,6 +1,5 @@
 import openai
 
-openai.api_key = "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"
 
 user_input = input("Enter Question: ")
 
